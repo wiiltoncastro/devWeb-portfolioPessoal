@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(44, 43, 43);
+    min-width: 350px;
+}
+
+#container{
+    border: white;
+    border-style: solid;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(imagem/fundoPreto.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#imgPerfil{
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin: auto;
+}
+
+#nome{
+    color: white;
+    font-size: 45px;
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#container2{
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    background-color: #ffffffaa;
+    max-width: 95%;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.titulos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.conteudos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#container3{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    background-color:#ffffffaa;
+    text-align: left;
+
+}
+
+#p1{
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.inputs{
+    width: 95%;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#input2{
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#botao{
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#botao::before{
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#rdc{
+    padding: 15px;
+    font-size: 25px;
+}
+
+.redesSociais{
+    color: white;
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.imgRedesSociais{
+    margin-left: 15px;
+    margin-right: 5px;
+    padding-top: 15px;
+    height: 40px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+
+}
+
+.links:hover{
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+
+
+#nome{
+    padding-right: 25px;
+}
+
+.imgRedesSociais{
+    display:block;    
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.redesSociais{
+    text-align: left;
+}
+
+
+
+}
